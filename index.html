@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200;500;700&display=swap"
+        rel="stylesheet">
+    <title>Pedra, papel, tesoura</title>
+</head>
+
+<body>
+    <div class="main">
+        <img src="./assets/jokenpo-img.jpg" alt="jo-ken-po-logo" class="jokenpo-img">
+        <h1>Jokenpô</h1>
+        <div class="div-buttons">
+            <button id="rock-btn" name="rock" onclick="playHuman('rock')">
+                <img src="./assets/rock-img.png" alt="rock-icon" id="rock">
+            </button>
+            <button id="paper-btn" name="paper" onclick="playHuman('paper')">
+                <img src="./assets/paper-img.png" alt="paper-icon" id="paper">
+            </button>
+            <button id="scissor-btn" name="scissor" onclick="playHuman('scissor')">
+                <img src="./assets/scissor-img.png" alt="scissor-icon" id="scissor">
+            </button>
+        </div>
+        <p class="result"></p>
+        <p>Sua pontuação: <span id="human-score">0</span></p>
+        <p>Pontuação da máquina: <span id="machine-score">0</span></p>
+        <div class="final-result">
+            <p class="final-score"></p>
+            <button class="restart-button" onclick="restartGame()">
+                <img src="./assets/restart-button.svg" alt="restart-icon">
+            </button>
+            <p class="restart-text">Reiniciar Jogo</p>
+        </div>
+    </div>
+</body>
+
+<script src="./script.js"></script>
+
+</html>

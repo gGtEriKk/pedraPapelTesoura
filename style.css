@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.jokenpo-img {
+    width: 300px;
+}
+
+.main {
+    background-color: #F4E9D7;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+#rock, #paper, #scissor {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    border-radius: 5px;
+}
+
+#human-score{
+    color: blue;
+    font-weight: bolder;
+}
+
+#machine-score{
+    color: red;
+    font-weight: bolder;
+}
+
+#rock-btn, #paper-btn, #scissor-btn{
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#rock-btn{
+    background: #FFE84A;
+}
+
+#paper-btn{
+    background: #00E1D4;
+}
+
+#scissor-btn{
+    background: #F1BAF5;
+}
+
+#rock:hover{
+    opacity: 0.8;
+}
+
+#rock:active{
+    opacity: 0.6;
+}
+
+#paper:hover{
+    opacity: 0.8;
+}
+
+#paper:active{
+    opacity: 0.6;
+}
+
+#scissor:hover{
+    opacity: 0.8;
+}
+
+#scissor:active{
+    opacity: 0.6;
+}
+
+.div-buttons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0 20px 0;
+}
+
+.restart-text{
+    color: #000000;
+}
+
+.final-result{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    visibility: hidden;
+    z-index: 0;
+}
+
+.restart-button{
+    border: none;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.final-score{
+    font-size: 24px;
+}
