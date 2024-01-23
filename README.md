@@ -6,14 +6,20 @@
 atinja os 10 pontos, uma tela apareça indicando que a pessoa venceu. Caso contrário, aparece uma tela indicando que
 foi derrotado pela máquina. Venha se divertir!!! 🪨 📰 ✂️</p>
 
+<div display="flex" >
+    <img src="./assets/Screen Jokenpo.png" width="300px"/>
+    <img src="./assets/Print winner.png" width="300px"/>
+    <img src="./assets/Print looser.png" width="300px"/>
+</div>
+
 O que foi feito:
-[] - Arquivo HTML
-[] - Estilização com CSS
-[] - Utilização de JavaScript para interação com os elementos
+[x] - Arquivo HTML
+[x] - Estilização com CSS
+[x] - Utilização de JavaScript para interação com os elementos
 
 O que falta fazer:
-[] - Responsividade para demais aparelhos
-[] - Adicionar ranking de pontuação, aparecendo o nome do usuário ao lado com a posição e a pontuação atualizada
-[] - Transformar em aplicação para celular
+[ ] - Responsividade para demais aparelhos
+[ ] - Adicionar ranking de pontuação, aparecendo o nome do usuário ao lado com a posição e a pontuação atualizada
+[ ] - Transformar em aplicação para celular
 
 Desenvolvido por Erik Gomes.
