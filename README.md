@@ -4,9 +4,7 @@
 
 <b>Descrição:</b>
 
-<p>Neste jogo com um desigin bem leve e descontraído, foram adicionadas funções para que, quando
-    o usuário, jogando contra a máquina, atinja os 10 pontos, uma tela apareça indicando que a pessoa venceu. 
-    Caso contrário, aparece uma tela indicando que foi derrotado pela máquina. Venha se divertir!!! 🪨 📰 ✂️</p>
+<p>Desenvolvido no módulo de javaScript, este projeto foi muito gratificante, pois reforçou meu aprendizado, como funcionam as funções, interação com cada elemento HTML, e estimulou minha criatividade. Foi inspirado no jogo Pedra, papel e tesoura, onde o usuário enfrenta a máquina e, ao atingir 10 pontos, aparece uma tela indicando que venceu e o botão de reiniciar partida. Caso a máquina atinja os 10 pontos, aparece indicando que o usuário foi derrotado. Venha se divertir!!! 🪨 📰 ✂️</p>
 
 <b>Demonstração de como ficou:</b>
 
